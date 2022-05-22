@@ -22,7 +22,8 @@ there is internet (and internet is everywhere), we don't need to by and maintain
     service become available).
     - Access to a pooling and shared resource instead of physic hardwares optimize use of the resource, so make them more efficient => reduce costs for users
     and finally add redundency to users data.
-    
+
+## Everything as a service
 - Types of cloud services
     - Software as a service: it's a finished application running in the cloud that we can acces by a browser or running in the background or other ways.
     - Ifrastructure as a service to be able to have a deeper access to resources like, the storage, the networking, the operating system and that is possible
@@ -34,3 +35,20 @@ there is internet (and internet is everywhere), we don't need to by and maintain
     of the web server, the database, the framework, etc). And the provider take care of maintaining and keeping everythin patched and updated
     (the OS, security, databse, web server, framework etc).
     Additionnaly PaaS provide features like analytics, auto scaling, 
+
+## The marketplace, cloud solutions and cloud vendors
+
+- Cloud deployment options
+    - Public cloud, which is the default way to use cloud services, and thus invilve the concept of mutlty tenancy where many people (tenants) could
+    be sharing the same physical harddisk without knowing because of the virtual machines
+    - Private cloud, which allow to put a set of virtual machines of a public cloud inside a private networks then add additionnal security layer to it.
+    - Hybrid cloud whihc is either a mix of private and public cloud or also means incorporation user's own on premises applications or servers which 
+    also share a common network and can talk to each others
+    - Multi cloud that is a mix of cloud providers servies
+ 
+ - Elastic computing: Allows the system to scale up and down automatically accoring to tge configurations (conditions we defined)
+ - Serverless computing: Just a small evolution of PaaS, to just deploy code, sometime called function as a service FaaS
+ 
+ - SLA: In networking in general we know we could have outages, hardware failures and network falilures, but we can still expect a certain 
+    quality. It documents expectations of availability, uptime, and security. 
+
